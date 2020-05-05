@@ -19,11 +19,11 @@ img.btn-platform {
 
 .img-navbar {
 	width: 150px;
-	margin-top: 10px;
-	margin-left: 10px;
 }
 
-
+.w3_agile_team_grid {
+	margin-top: 30px;
+}
 html, body{
   font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -238,10 +238,10 @@ input[type="submit"],input[type="reset"],a{
   font-weight: bolder;
 }
 a.highlighted:hover{
-	color:#8dc63f;
+	color:black;
 }
 a.w3_agile_social_network:hover{
-	color:white/*#3b5998*/;
+	color:black/*#3b5998*/;
 }
 a.agile_twitter:hover{
 	color:#1da1f2;
@@ -1277,13 +1277,10 @@ figure.effect-roxy:hover figcaptionB::before,
   cursor: progress; }
 .mfp-zoom-out-cur,
 .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
   cursor: zoom-out; }
 .mfp-zoom {
   cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
+
   cursor: zoom-in; }
 
 .mfp-auto-cursor .mfp-content {
@@ -1382,7 +1379,7 @@ figure.effect-roxy:hover figcaptionB::before,
 }
 .w3_agile_team_grid ul li{
 	display:inline-block;
-	margin-right:1em;
+	margin-right:1.5em;
 }
 .w3_agile_team_grid ul li:last-child{
 	margin:0;
@@ -1694,7 +1691,6 @@ figure.effect-roxy:hover figcaptionB::before,
 }
 .wthree_events_grid_right{
 	position:relative;
-	background:url(../images/12.jpg) no-repeat 0px 0px;
 	min-height:400px;
 	padding:3em;
 }
@@ -2118,7 +2114,8 @@ button.close {
 		min-height: 700px;
 	}
 	.agile_banner_info {
-		margin: 2em 0 11em -1em;
+		/*margin: 2em 0 11em -1em;*/
+
 	}
 	.schedule {
 		padding: 2em 0;
@@ -2535,7 +2532,11 @@ button.close {
     background-size: 1400px;
 	}
 	.agile_banner_info {
-		margin: 9em 0 0em !important;
+		margin: 3em 0 3em 4em!important;
+	}
+
+	.agile_banner_info > img {
+		display: none;
 	}
 	.wthree_text {
 		padding: 4.3em 0 0;
@@ -2689,9 +2690,6 @@ button.close {
   .agile_banner_info h2 {
     font-size: 1.6em;
     margin-top: -3em !important;
-    position: absolute;
-    left: 2%;
-    width: 35%;
   }
   .agile_banner_info h2 i {
     font-size: .6em;
@@ -2862,9 +2860,6 @@ button.close {
   .agile_banner_info h2 {
     ffont-size: 1.3em;
     margin-top: -3.3em !important;
-    position: absolute;
-    left: 2%;
-    width: 35%;
   }
   .agile_banner_info h2 i {
     font-size: .5em;
@@ -2978,15 +2973,13 @@ button.close {
     background-size: 1100px;
 	}
 	.agile_banner_info {
-		margin: 8.5em 0 6em !important;
+		margin: 3em 0 3em 4em!important;
 		width: 30%;
 	}
   .agile_banner_info h2 {
     font-size: 1.1em;
     margin-top: -3.3em !important;
-    position: absolute;
-    left: 2%;
-    width: 35%;
+
 	}
   .agile_banner_info h2 i {
     font-size: .5em;
@@ -3088,9 +3081,7 @@ button.close {
 	.agile_banner_info h2 {
     font-size: 1.2em;
     margin-top: -3em !important;
-    position: absolute;
-    left: 2%;
-    width: 30%;
+
 	}
   .agile_banner_info h2 i {
     font-size: .5em;
@@ -3849,7 +3840,6 @@ button.close {
 }
 .content__container__text {
   display: inline;
-  float: center;
   margin: 0;
 }
 .content__container__list {
