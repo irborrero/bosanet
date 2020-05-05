@@ -1,3 +1,29 @@
+.go-to-platform {
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+	color: #8dc63f;
+}
+
+a.go-to-platform:hover {
+	color: black;
+}
+
+img.btn-platform {
+	width: 150px;
+	margin-top: 20px;
+}
+
+.logo-home {
+	margin-bottom: 20px;
+}
+
+.img-navbar {
+	width: 150px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
 html, body{
   font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -101,7 +127,6 @@ input[type="submit"],input[type="reset"],a{
 }
 
 .banner > .navbar-default > .navbar-header {
-  background-color: white;
   border-bottom-style: none;
 }
 
@@ -113,7 +138,7 @@ input[type="submit"],input[type="reset"],a{
 
 /*-- banner --*/
 .banner{
-	background:url(../images/bombillo.png) no-repeat 0px 0px;
+
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -122,6 +147,7 @@ input[type="submit"],input[type="reset"],a{
 	min-height:800px;
 	padding: 2em 0 0;
 	position:relative;
+
 }
 
 .banner p,ul li,ol li{
@@ -142,10 +168,11 @@ input[type="submit"],input[type="reset"],a{
     color: #8dc63f/*#d4573f*/;
 }
 .agile_banner_info{
-	margin:15em 0 16em;
-  width: 60%;
+  	width: 100%;
+	padding-top: 100px;
 	text-align:center;
 }
+
 .agile_banner_info h2{
 	font-size: 3.5em;
     color: #212121;
@@ -652,7 +679,8 @@ a.w3_agile_vimeo:hover{
 }
 .w3_banner_bottom_grid_pos_message{
 	position:relative;
-  margin-top: -10em;
+  	margin-top: -7em;
+	text-align: center;
 }
 .w3_banner_bottom_grid{
 	 position: absolute;
@@ -680,7 +708,7 @@ a.w3_agile_vimeo:hover{
 .w3l_banner_bottom_right h4{
 	text-transform: capitalize;
   font-size: 1.2em;
-  color: #212121;
+	color: #8dc63f;
 }
 .w3l_banner_bottom_message h3{
   margin-top: -0.2em;
@@ -689,6 +717,7 @@ a.w3_agile_vimeo:hover{
   font-size: 1.2em;
   color: #212121;
   letter-spacing: 3px;
+	text-align: center;
 }
 .w3l_banner_bottom_right h3 span{
 	text-transform:uppercase;
@@ -3632,16 +3661,13 @@ button.close {
 /*NAVBAR EXAMPLE*/
 .navbar {
   /*font-size: .3em; */
-  overflow: visible;
-  background-color: white;
-  border-color: green;
+  background-color: black;
+	border-color: transparent;
   position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
+  top: 0px; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   height: 50px;
   background-blend-mode: overlay;
-  background-color: transparent;
-  border: none;
   z-index: 100;
   transition: background-color 1s ease 0s;
 }
@@ -3669,6 +3695,7 @@ button.close {
         color: #8dc63f; /*First color shown*/
         margin: -0.5em 0.2em;
         font-size: 1.1em;
+		font-family: 'Montserrat', sans-serif;
         text-align: right;
 }
 .navbar-nav > li > a {
@@ -3714,7 +3741,6 @@ button.close {
 /* Solid class attached on scroll past first section */
 
 .navbar.solid {
-  background-color: white;
   transition: background-color 1s ease 0s;
   box-shadow: 0 0 4px grey;
 }
