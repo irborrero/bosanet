@@ -24,6 +24,50 @@ img.btn-platform {
 .w3_agile_team_grid {
 	margin-top: 30px;
 }
+
+.container-fluid {
+	text-align: center;
+}
+
+.container-fluid > h3 {
+	margin-top: 30px;
+}
+
+.white {
+	color: white;
+}
+
+.green {
+	color: #8dc63f;
+}
+
+.bombilla {
+	position: absolute;
+	left: 58%;
+	top: 95%;
+}
+
+.bombilla-image {
+	height: 70%;
+	width: 70%;
+
+}
+
+.container-about-us {
+	margin-left: 20%;
+	margin-right: 40%;
+	padding: 30px;
+}
+
+.casilla {
+	border-radius: 50%;
+	width: 11.5%;
+	height: 110%;
+	padding: 15px;
+	background-color: #8dc63f;
+	margin-left: 25px;
+}
+
 html, body{
   font-size: 18px;
 	font-family: 'Open Sans', sans-serif;
@@ -94,7 +138,11 @@ input[type="submit"],input[type="reset"],a{
 .agileinfo_banner_bottom_grid_three_left > .img-responsive {
   max-width: 110%;
   margin-left: -2em;
-  margin-top: -3em;
+}
+.agileinfo_banner_bottom_grid_three_left > .img-responsive.bw {
+	max-width: 110%;
+	margin-left: -2em;
+
 }
 .w3_agile_portfolio_grid > .img-responsive {
   max-width: 100%;
@@ -1629,19 +1677,21 @@ figure.effect-roxy:hover figcaptionB::before,
 	text-align:center;
 }
 .w3l_schedule_bottom_right_grid1 i{
+	margin-bottom: -10px;
 	font-size:1.5em;
-	color:#8dc63f/*#d4573f*/;
+	color:white/*#d4573f*/;
 	display:block;
 }
 .w3l_schedule_bottom_right_grid1 h4{
 	margin: 1em 0;
-    color: #212121;
+    color: white;
     text-transform: uppercase;
     font-size: 1em;
 }
 .w3l_schedule_bottom_right_grid1 h5{
+	margin-top: -18px;
 	font-size:2em;
-	color:#212121;
+	color:white;
 	font-weight:600;
 }
 /*-- //schedule-bottom --*/
@@ -1989,7 +2039,7 @@ button.close {
 .w3_agile_footer{
 	padding: 2.5em 0 1em;
 	text-align:center;
-	background:gray/*#212121*/;
+	background:black;
 	position:relative;
 }
 .w3_agile_footer p{
