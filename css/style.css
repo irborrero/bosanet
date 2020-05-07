@@ -201,16 +201,43 @@ input[type="submit"],input[type="reset"],a{
 
 /*-- banner --*/
 .banner{
+	background: url(../images/home.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	transition: 5s;
 
-	background-size:cover;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	-ms-background-size:cover;
+	animation-name: animate;
+	animation-direction: alternate-reverse;
+	animation-duration: 30s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-timing-function: ease-in-out;
+
 	min-height:800px;
 	padding: 2em 0 0;
 	position:relative;
 
+}
+
+@keyframes animate {
+	0% {
+		background: url(../images/logoBigMenu.svg);
+	}
+	20% {
+		background: url(../images/logoBigMenu.svg);
+	}
+	40% {
+		background: url(../images/logoBigMenu.svg);
+	}
+	60% {
+		background: url(../images/bra<ons.svg);
+	}
+	80% {
+		background: url(../images/logoBigMenu.svg);
+	}
+	100% {
+		background: url(../images/logoBigMenu.svg) ;
+	}
 }
 
 .banner p,ul li,ol li{
@@ -231,6 +258,7 @@ input[type="submit"],input[type="reset"],a{
     color: #8dc63f/*#d4573f*/;
 }
 .agile_banner_info{
+
   	width: 100%;
 	padding-top: 100px;
 	text-align:center;
@@ -2194,7 +2222,7 @@ button.close {
 }
 @media (max-width:1366px){
 	.banner {
-		background-position: -90px 0px;
+		/*background-position: -90px 0px;*/
 	}
 	.w3ls_schedule_bottom_right_grid {
 		margin: 5em 0 0;
@@ -2262,7 +2290,7 @@ button.close {
 		font-size: 3em;
 	}
 	.agile_banner_info {
-		margin: 3em 0 0em;
+		/*margin: 3em 0 0em;*/
 	}
   .wthree_events_grid_right1 h3 {
     font-size: .9em;
