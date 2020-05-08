@@ -59,6 +59,10 @@ img.btn-platform {
 	padding: 30px;
 }
 
+.centro {
+	padding: 15px;
+}
+
 .casilla {
 	border-radius: 50%;
 	width: 11.5%;
@@ -66,6 +70,14 @@ img.btn-platform {
 	padding: 15px;
 	background-color: #8dc63f;
 	margin-left: 25px;
+}
+
+.casilla2 {
+	border-radius: 50%;
+	width: 10%;
+	padding: 15px;
+	background-color: #8dc63f;
+	margin: 10px;
 }
 
 .space {
@@ -77,10 +89,13 @@ img.btn-platform {
 }
 
 hr {
-	border-top: 1px solid black;
 	margin-left: 100px;
 	margin-right: 100px;
 	margin-bottom: 120px;
+}
+
+.hr{
+	margin-top: 100px;
 }
 
 html, body{
@@ -117,10 +132,9 @@ body a:hover{
 	text-decoration:none;
 }
 body plat {
-    font-style: normal;
     color: #8dc63f;
-    letter-spacing: .4em;
     text-align: center;
+	font-weight: bold;
 }
 #shlb {
     display: inherit;
@@ -201,43 +215,21 @@ input[type="submit"],input[type="reset"],a{
 
 /*-- banner --*/
 .banner{
-	background: url(../images/home.jpg) no-repeat 0px 0px;
+	/*background: url(../images/home.jpg) no-repeat;*/
 	background-size: cover;
-	transition: 5s;
-
-	animation-name: animate;
-	animation-direction: alternate-reverse;
-	animation-duration: 30s;
-	animation-fill-mode: forwards;
-	animation-iteration-count: infinite;
-	animation-play-state: running;
-	animation-timing-function: ease-in-out;
-
 	min-height:800px;
 	padding: 2em 0 0;
 	position:relative;
+	height: 100vh;
 
 }
 
-@keyframes animate {
-	0% {
-		background: url(../images/logoBigMenu.svg);
-	}
-	20% {
-		background: url(../images/logoBigMenu.svg);
-	}
-	40% {
-		background: url(../images/logoBigMenu.svg);
-	}
-	60% {
-		background: url(../images/bra<ons.svg);
-	}
-	80% {
-		background: url(../images/logoBigMenu.svg);
-	}
-	100% {
-		background: url(../images/logoBigMenu.svg) ;
-	}
+#home {
+	background-size: cover;
+	min-height:800px;
+	padding: 2em 0 0;
+	position:relative;
+	height: 100vh;
 }
 
 .banner p,ul li,ol li{
@@ -763,7 +755,7 @@ a.w3_agile_vimeo:hover{
 }
 /*-- banner-bottom --*/
 .banner-bottom{
-	padding:7em 0 5em;
+	/*padding:7em 0 5em;*/
 }
 .w3_banner_bottom_grid_pos{
 	position:relative;
@@ -856,7 +848,7 @@ a.w3_agile_vimeo:hover{
 	margin:3em 0 0;
 }
 .wthree_banner_bottom_grid_three_left1{
-	border-top:2px solid #8dc63f/*#d4573f*/;
+	/*border-top:2px solid #8dc63f/*#d4573f*/;
 	padding-top:0.8em;
 }
 .w3_agileits_para{
