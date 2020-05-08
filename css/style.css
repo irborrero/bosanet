@@ -4,6 +4,10 @@
 	color: #8dc63f;
 }
 
+.mt-5 {
+	margin-top: 3rem !important;
+}
+
 a.go-to-platform:hover {
 	color: black;
 }
@@ -63,19 +67,28 @@ img.btn-platform {
 	padding: 15px;
 }
 
-.casilla {
+.circle {
 	border-radius: 50%;
 	width: 11.5%;
 	height: 110%;
 	padding: 15px;
 	background-color: #8dc63f;
 	margin-left: 25px;
+	text-align: center;
 }
 
-.casilla2 {
+.circle-steps {
+	 border-radius: 50%;
+	 width: 11%;
+	 padding: 15px;
+	 background-color: #8dc63f;
+	 margin: 10px;
+ }
+
+.circle-check {
 	border-radius: 50%;
-	width: 10%;
-	padding: 15px;
+	width: 8%;
+	padding: 7px;
 	background-color: #8dc63f;
 	margin: 10px;
 }
@@ -88,6 +101,10 @@ img.btn-platform {
 	margin-bottom: 5px;
 }
 
+.upper-case{
+	text-transform: uppercase;
+}
+
 hr {
 	margin-left: 100px;
 	margin-right: 100px;
@@ -97,6 +114,22 @@ hr {
 .hr{
 	margin-top: 100px;
 }
+
+.subtitle-how_it_works {
+	font-style:normal;
+	display: block;
+	color: white;
+	letter-spacing: 8px;
+	margin-bottom: -20px;
+
+	border-radius: 20px;
+	width: auto;
+	padding: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: #8dc63f;
+}
+
 
 html, body{
   font-size: 18px;
