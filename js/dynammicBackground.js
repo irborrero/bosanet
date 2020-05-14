@@ -18,6 +18,6 @@ $(document).ready(function(){
 
     home.style.background = 'url(images/home/titulo5.png)';
     home.style.backgroundSize= "cover";
-    how_it_works.style.background = 'url(images/platfromBlack.png)';
+    how_it_works.style.background = 'url(images/home/titulo5.png)';
     how_it_works.style.backgroundSize= "100vw";
 });
