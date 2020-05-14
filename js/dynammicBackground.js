@@ -1,5 +1,6 @@
 $(document).ready(function(){
     var home = document.getElementById('home');
+    var how_it_works = document.getElementById('how_it_works')
 
     var backgrounds = new Array( 'url(images/home/titulo5.png)','url(images/home/titulo9.jpg)');
 
@@ -16,6 +17,7 @@ $(document).ready(function(){
     setInterval(nextBackground, 6000);
 
     home.style.background = 'url(images/home/titulo5.png)';
-    home.style.backgroundSize= "cover"
-
+    home.style.backgroundSize= "cover";
+    how_it_works.style.background = 'url(images/platfromBlack.png)';
+    how_it_works.style.backgroundSize= "100vw";
 });
