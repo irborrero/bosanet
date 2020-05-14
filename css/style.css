@@ -21,7 +21,7 @@
 }
 
 a.go-to-platform:hover {
-	color: black;
+	color:  #8dc63f;
 }
 
 img.btn-platform {
@@ -99,13 +99,15 @@ img.btn-platform {
 }
 
 .circle {
-	border-radius: 50%;
-	width: 25%;
-	padding: 15px;
-	background-color: #8dc63f;
-	margin-left: 20px;
-	text-align: center;
-}
+	 border-radius: 50%;
+	 width: 20%;
+	 padding: 15px;
+	 background-color: #8dc63f;
+	 margin-left: 20px;
+	 text-align: center;
+	 font-size: 0.8em;
+ }
+
 
 .circle-steps {
 	 border-radius: 50%;
@@ -141,8 +143,12 @@ hr {
 	margin-bottom: 120px;
 }
 
-.hr{
-	/*margin-top: 100px;*/
+#how_it_works {
+	margin-top: 50px;
+	background: url(../images/platfromBlack.png);
+	background-size: 100vw;
+	height: 100vh;
+
 }
 
 .subtitle-how_it_works {
@@ -151,7 +157,7 @@ hr {
 	color: white;
 	letter-spacing: 8px;
 	margin-bottom: -20px;
-
+	text-align: center;
 	border-radius: 20px;
 	width: auto;
 	padding: 10px;
@@ -278,7 +284,6 @@ input[type="submit"],input[type="reset"],a{
 
 /*-- banner --*/
 .banner{
-	/*background: url(../images/home.jpg) no-repeat;*/
 	background-size: cover;
 	min-height:800px;
 	padding: 2em 0 0;
@@ -384,10 +389,10 @@ input[type="submit"],input[type="reset"],a{
   font-weight: bolder;
 }
 a.highlighted:hover{
-	color:black;
+	color:white;
 }
 a.w3_agile_social_network:hover{
-	color:black/*#3b5998*/;
+	color:white;
 }
 a.agile_twitter:hover{
 	color:#1da1f2;
@@ -853,7 +858,7 @@ a.w3_agile_vimeo:hover{
 }
 .w3l_banner_bottom_right h4{
 	text-transform: capitalize;
-  font-size: 1.2em;
+  font-size: 1em;
 	color: #8dc63f;
 }
 .w3l_banner_bottom_message h3{
@@ -1777,9 +1782,10 @@ figure.effect-roxy:hover figcaptionB::before,
 }
 .w3l_schedule_bottom_right_grid1 i{
 	margin-bottom: -10px;
-	font-size:1.5em;
-	color:white/*#d4573f*/;
-	display:block;
+	color:white;
+	font-size: 2.5em;
+	display: block;
+
 }
 .w3l_schedule_bottom_right_grid1 h4{
 	margin: 1em 0;
@@ -2000,14 +2006,12 @@ button.close {
 }
 /*-- what_we_do --*/
 .what_we_do{
-	background: url(../images/what_we_do/man_map.png) no-repeat 0px 0px;
+
     background-size: contain;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     -ms-background-size: contain;
-    background-attachment: fixed;
-    background-position: bottom;
 }
 .w3_head{
 	color:#fff !important;
@@ -2532,14 +2536,11 @@ button.close {
 		width: 60%;
 	}
   .what_we_do {
-    background: url(../images/what_we_do/man_map_opac.png) no-repeat 0px 0px;
     background-size: contain;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     -ms-background-size: contain;
-    background-attachment: fixed;
-    background-position: bottom;
   }
   .w3_banner_bottom_grid_message {
     font-size: 0.8em;
