@@ -1,7 +1,9 @@
 .go-to-platform {
-	font-weight: bold;
 	font-family: 'Montserrat', sans-serif;
-	color: #8dc63f;
+	color: white;
+	font-size: .7em;
+	letter-spacing: 5px;
+
 }
 
 .text-muted {
@@ -11,7 +13,7 @@
 .about-p {
 	padding-top:30px;
 	font-size: large;
-	text-align: left;
+	text-align: justify;
 }
 
 .mt-5 {
@@ -23,11 +25,20 @@ a.go-to-platform:hover {
 }
 
 img.btn-platform {
-	width: 150px;
-	margin-top: 20px;
+	width: 110px;
+	margin-top: 6em;
+	margin-bottom: 20px;
+	border-radius: 50%;
 }
 
 .logo-home {
+	height: 40px;
+	background-color:black;
+	padding-left: 300px;
+	padding-right: 300px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 20px;
 	margin-bottom: 20px;
 }
 
@@ -310,7 +321,7 @@ input[type="submit"],input[type="reset"],a{
 
 .agile_banner_info h2{
 	font-size: 3.5em;
-    color: #212121;
+    color: white;
     padding: .4em 0;
     border-top: 1px solid #8dc63f/*#d4573f*/;
     border-bottom: 1px solid #8dc63f/*#d4573f*/;
@@ -1511,6 +1522,7 @@ figure.effect-roxy:hover figcaptionB::before,
 }
 .w3_agile_team_grid:nth-child(1),.w3_agile_team_grid:nth-child(3){
 	margin-top:1em;
+	margin-bottom: 1em;
 }
 .w3_agile_team_grid ul li{
 	display:inline-block;
@@ -2076,7 +2088,7 @@ button.close {
 }
 .agileits_footer_nav_b{
 	padding:1em;
-  margin-top: 0em;
+  	margin-top: 3.5em;
 	/*border:2px solid #fff;*/
 }
 .agileits_footer_nav ul li{
@@ -2313,7 +2325,7 @@ button.close {
 	}
 	.w3l_banner_bottom_right h3 {
 		font-size: 1.8em;
-    padding-left: 0%;
+    	padding-left: 0%;
 	}
 }
 @media (max-width: 1080px){

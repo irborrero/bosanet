@@ -1,7 +1,7 @@
 $(document).ready(function(){
     var home = document.getElementById('home');
 
-    var backgrounds = new Array('url(images/img_3.jpg)', 'url(images/home.jpg)');
+    var backgrounds = new Array( 'url(images/home/titulo5.png)','url(images/home/titulo9.jpg)');
 
     var current = 0;
 
@@ -13,9 +13,9 @@ $(document).ready(function(){
         home.style.transition = "1s"
     }
 
-    setInterval(nextBackground, 5000);
+    setInterval(nextBackground, 6000);
 
-    home.style.background = 'url(images/home.jpg)';
+    home.style.background = 'url(images/home/titulo5.png)';
     home.style.backgroundSize= "cover"
 
 });
