@@ -203,7 +203,7 @@ hr {
 }
 
 
-.subtitle-how_it_works {
+.subtitle-what_we_do {
 	font-style:normal;
 	display: block;
 	color: white;
@@ -2891,7 +2891,6 @@ button.close {
   }
   .agile_banner_info a img {
     width: 40%;
-    padding-top: 1.1em;
   }
   .w3_banner_bottom_grid_message {
     font-size: 0.65em;
@@ -3158,13 +3157,54 @@ button.close {
 	}
 }
 @media (max-width: 600px){
+
+	.circles-row,
+	.about-pannels,
+	hr {
+		display: none;
+	}
+
+	#what_we_do {
+		margin-left: 3%;
+		margin-right: 3%;
+	}
+
+	.subtitle-what_we_do {
+		font-size: 0.8em;
+		letter-spacing: 4px;
+	}
+
+	.mt-5 > p {
+		 font-size: 0.7em;
+		 margin-left: 10%;
+		 margin-right: 10%;
+	 }
+
+	.mt-5 {
+		margin-top: 20px !important;
+	}
+
+	.fa-user-plus,
+	.fa-briefcase {
+		padding-top: 20px;
+	}
+
+
+	.bombillo {
+		position: relative;
+		margin-left: 65%;
+		margin-top: -130%;
+		margin-bottom: 60%;
+		width: 40%!important;
+	}
+
   .banner {
 		min-height: 430px;
     background-position: -380px 100px;
     background-size: 1100px;
 	}
 	.agile_banner_info {
-		margin: 3em 0 3em 4em!important;
+		margin: 5em 0 3em 4em!important;
 		width: 30%;
 	}
   .agile_banner_info h2 {
@@ -3187,7 +3227,7 @@ button.close {
 		right: 3%;
 	}
   .agileits_footer_nav_b {
-    /*margin-top: -10em !important;*/
+    margin-top: 8em !important;
     font-size: 0.8em
   }
   .w3_banner_bottom_grid_pos_message {
@@ -3254,11 +3294,10 @@ button.close {
 }
 @media (max-width: 568px){
 	.banner {
-		padding: 1em 0 0;
-		min-height: 400px;
-    background-position: -300px 60px !important;
-    background-size: 850px;
+    	/*background-position: -300px 60px !important;
+    	 */
 	}
+
   .content__container__list__item {
     font-size: 0.5em;
     line-height: 2.5em !important;
@@ -3286,7 +3325,7 @@ button.close {
   }
 
   .w3_agileits_banner_social_icons_pos {
-    bottom: 40% !important;
+    bottom: 60% !important;
   }
 	.cd-stretchy-nav ul li {
 		font-size: 13px;
@@ -3435,7 +3474,8 @@ button.close {
 @media (max-width: 414px){
 	.agile_banner_info h2 {
 		font-size: 2em;
-		margin: 0;
+		margin-left: 11%;
+		width: 81%;
 	}
 	.agile_banner_info h2 i {
 		font-size: .25em;

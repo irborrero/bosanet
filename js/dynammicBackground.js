@@ -4,7 +4,7 @@ $(document).ready(function(){
     var what_we_do = document.getElementById('what_we_do')
     var contact = document.getElementById('contact')
 
-    var backgrounds = new Array( 'url(images/home/titulo5.png)','url(images/home/titulo9.jpg)');
+    var backgrounds = new Array( 'url(images/home/titulo5.png) no-repeat','url(images/home/titulo9.jpg) no-repeat');
 
     var current = 0;
 
@@ -18,7 +18,7 @@ $(document).ready(function(){
 
     setInterval(nextBackground, 6000);
 
-    home.style.background = 'url(images/home/titulo5.png)';
+    home.style.background = 'url(images/home/titulo5.png) no-repeat';
     home.style.backgroundSize= "cover";
     how_it_works.style.background = 'url(images/platfromBlack.png)' ;
     how_it_works.style.backgroundSize= "100vw";
