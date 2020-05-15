@@ -3,7 +3,23 @@
 	color: white;
 	font-size: .7em;
 	letter-spacing: 5px;
+}
 
+.container-what-we-do {
+	background-color: white;
+	border-top: 100px solid transparent;
+}
+
+.container-space {
+	margin-top: 10vh;
+	background: url(../images/change.jpg) no-repeat;
+	background-attachment:fixed;
+	height: 45vh;
+	background-size: cover;
+}
+.contact {
+	height: 83vh;
+	background-color: black;
 }
 
 .text-muted {
@@ -46,10 +62,6 @@ img.btn-platform {
 	width: 150px;
 }
 
-.w3_agile_team_grid {
-	margin-top: 30px;
-}
-
 .container-fluid {
 	text-align: center;
 }
@@ -89,12 +101,47 @@ img.btn-platform {
 	margin-right: 10px;
 }
 
-.centro {
-	padding: 15px;
+.item-how_it_works-check {
+	background-color: rgba(0, 0, 0, 0.8);
+	padding: 7px;
+	border-radius: 20px;
+	margin: 5px;
+	text-align: center;
+}
+
+.item-how_it_works-check > h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	padding-top: 3%;
+	padding-bottom: 1%;
+}
+.item-how_it_works-check >label {
+	color: #8dc63f;
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 5px;
+	font-size: 0.6em;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-align: center;
+}
+
+.item-how_it_works-number {
+	padding: 7px;
+	border-radius: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	color: white;
+}
+
+.item-how_it_works-number > p {
+	margin-top: 3%;
 }
 
 .circles-row {
-	width: 40vw;
+	margin-left: -13%;
+	width: 54vw;
 	margin-top: 40px;
 }
 
@@ -111,11 +158,17 @@ img.btn-platform {
 
 .circle-steps {
 	 border-radius: 50%;
-	 width: 11%;
-	 padding: 15px;
+	 height: 60px;
+	 width: 60px;
 	 background-color: #8dc63f;
+	 text-align: center;
 	 margin: 10px;
  }
+
+.circle-steps > label{
+	font-size: 1em;
+	line-height: 60px;
+}
 
 .circle-check {
 	border-radius: 50%;
@@ -148,6 +201,7 @@ hr {
 	height: 100vh;
 
 }
+
 
 .subtitle-how_it_works {
 	font-style:normal;
@@ -1994,23 +2048,11 @@ button.close {
 }
 /*-- contact --*/
 .contact{
-	background: url(../images/contact.png) no-repeat 0px 0px;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -ms-background-size: cover;
-    background-attachment: fixed;
 }
 /*-- what_we_do --*/
 .what_we_do{
-
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    -ms-background-size: contain;
 }
+
 .w3_head{
 	color:#fff !important;
 }
@@ -2139,7 +2181,7 @@ button.close {
 /*-- //contact --*/
 /*-- footer --*/
 .w3_agile_footer{
-	padding: 2.5em 0 1em;
+	padding: 0.5em 0 0.5em;
 	text-align:center;
 	background:black;
 	position:relative;
