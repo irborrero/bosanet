@@ -2080,6 +2080,9 @@ button.close {
     min-height: 400px;
 }
 /*-- contact --*/
+.contact-p {
+	text-align: center;
+}
 .contact{
 	margin-bottom: -4%;
 }
