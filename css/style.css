@@ -2615,7 +2615,7 @@ button.close {
 		padding-top: 2em;
 	}
 	.agileits_banner_bottom_grid_three {
-		margin: 2em 0 0;
+		margin: 0em 0 0;
 	}
 	figure.effect-roxy h3 {
 		font-size: 1.3em;
@@ -3196,6 +3196,35 @@ button.close {
 		margin-top: -130%;
 		margin-bottom: 60%;
 		width: 40%!important;
+	}
+
+	#how_it_works {
+		height: 140vh;
+	}
+
+	#how_it_works > br {
+		display: none;
+	}
+
+	.item-how_it_works-check > h1 {
+		font-size: 1.3em;
+	}
+
+	.item-how_it_works-check > label{
+		font-size: 0.4em;
+	}
+
+	.item-how_it_works-number > p{
+		font-size: 0.65em;
+	}
+
+	.circle-steps {
+		width: 40px;
+		height: 40px;
+	}
+
+	.circle-steps > label {
+		line-height: 40px;
 	}
 
   .banner {
