@@ -3199,13 +3199,16 @@ button.close {
 	}
 
 	#how_it_works {
-		height: 140vh;
+		height: 141vh;
 	}
 
 	#how_it_works > br {
 		display: none;
 	}
 
+	.item-how_it_works-check {
+		margin-top: 40px;
+	}
 	.item-how_it_works-check > h1 {
 		font-size: 1.3em;
 	}
