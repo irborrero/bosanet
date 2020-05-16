@@ -4,14 +4,42 @@
 	font-size: .7em;
 	letter-spacing: 5px;
 }
+.separate {
+	letter-spacing: 5px;
+}
+
+.black {
+	color: black;
+}
+.grey-faded {
+	font-size: 0.75em;
+}
+
+.copy-right {
+	font-size: 0.5em;
+}
+
+.phase {
+	font-style: italic;
+	font-size: 0.8em;
+	color: #8dc63f;
+	margin-bottom: 4%;
+}
+
+.gif-nav {
+	border-radius: 50%;
+	margin-left: -10px;
+	width: 30px;
+	height: 30px;
+}
 
 .container-what-we-do {
 	background-color: white;
+	border-bottom: 100px solid transparent;
 	border-top: 100px solid transparent;
 }
 
 .container-space {
-	margin-top: 10vh;
 	background: url(../images/change.jpg) no-repeat;
 	background-attachment:fixed;
 	height: 45vh;
@@ -93,6 +121,7 @@ img.btn-platform {
 
 .container-about-us {
 	padding: 30px;
+	border-bottom: 60px solid white;
 }
 
 .about-pannels {
@@ -197,9 +226,13 @@ hr {
 }
 
 #how_it_works {
-	margin-top: 50px;
 	height: 100vh;
 
+}
+
+.mb-2 {
+	color: black;
+	margin-bottom: -2.0%;
 }
 
 
@@ -1564,7 +1597,7 @@ figure.effect-roxy:hover figcaptionB::before,
   padding-bottom: 2.5em;
 }
 .w3_agile_team_grids{
-	margin:2em 0 0;
+	margin:2em 0 1em;
 }
 .w3_agile_team_grid h3{
 	font-size:1em;

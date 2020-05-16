@@ -22,7 +22,7 @@ $(document).ready(function(){
     home.style.backgroundSize= "cover";
     how_it_works.style.background = 'url(images/platfromBlack.png)' ;
     how_it_works.style.backgroundSize= "100vw";
-    how_it_works.style.backgroundAttachment = "fixed";
+    how_it_works.style.backgroundAttachment = "scroll";
     contact.style.background = 'url(images/contact-us.png)'
     contact.style.backgroundSize= "100vw";
     contact.style.backgroundAttachment = "fixed";
