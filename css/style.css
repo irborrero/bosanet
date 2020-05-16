@@ -3199,7 +3199,7 @@ button.close {
 	}
 
 	#how_it_works {
-		height: 141vh;
+		height: 145vh;
 	}
 
 	#how_it_works > br {
@@ -3222,12 +3222,12 @@ button.close {
 	}
 
 	.circle-steps {
-		width: 40px;
-		height: 40px;
+		width: 43px;
+		height: 43px;
 	}
 
 	.circle-steps > label {
-		line-height: 40px;
+		line-height: 43px;
 	}
 
   .banner {
