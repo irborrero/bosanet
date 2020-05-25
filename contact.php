@@ -1,6 +1,7 @@
 <?php
 if(isset($_POST['submit'])){
 
+    $name = $_POST['Name'];
     $email = $_POST['Email'];
     $message = $_POST['Message'];
     $formcontent="From: $name \n Message: $message";
