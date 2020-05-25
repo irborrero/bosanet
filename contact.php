@@ -1,6 +1,6 @@
 <?php
 
-    require("./sendgrid-php/sendgrid-php.php");
+    require('./sendgrid-php/sendgrid-php.php');
 
     /*
     $from = new SendGrid\Email(null, "irborrero@gmail.com");
@@ -16,7 +16,9 @@
     echo $response->statusCode();
     echo $response->headers();
     echo $response->body();
-    //header('Location: index0.html');
+    //
     */
+
+    header('Location: index0.html');
 
 ?>
