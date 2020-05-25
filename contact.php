@@ -1,7 +1,8 @@
 <?php
 
-    require("sendgrid-php/sendgrid-php.php");
+    require("./sendgrid-php/sendgrid-php.php");
 
+    /*
     $from = new SendGrid\Email(null, "irborrero@gmail.com");
     $subject = "Hello World from the SendGrid PHP Library!";
     $to = new SendGrid\Email(null, "irborrero@gmail.com");
@@ -16,5 +17,6 @@
     echo $response->headers();
     echo $response->body();
     //header('Location: index0.html');
+    */
 
 ?>
