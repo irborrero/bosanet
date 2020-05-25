@@ -1,5 +1,4 @@
 <?php
-if(isset($_POST['submit'])){
 
     require("sendgrid-php/sendgrid-php.php");
 
@@ -18,5 +17,4 @@ if(isset($_POST['submit'])){
     echo $response->body();
     //header('Location: index0.html');
 
-}
 ?>
