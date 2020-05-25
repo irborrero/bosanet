@@ -2,23 +2,22 @@
 
     require('./sendgrid-php/sendgrid-php.php');
 
-    /*
-    $from = new SendGrid\Email(null, "irborrero@gmail.com");
-    $subject = "Hello World from the SendGrid PHP Library!";
-    $to = new SendGrid\Email(null, "irborrero@gmail.com");
-    $content = new SendGrid\Content("text/plain", "Hello, Email!");
-    $mail = new SendGrid\Mail($from, $subject, $to, $content);
-
-    $apiKey = getenv('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');
-    $sg = new \SendGrid($apiKey);
-
-    $response = $sg->client->mail()->send()->post($mail);
-    echo $response->statusCode();
-    echo $response->headers();
-    echo $response->body();
-    //
-    */
-
-    header('Location: index0.html');
+        $email = new \SendGrid\Mail\Mail();
+        $email->setFrom("test@example.com", "Example User");
+        $email->setSubject("Sending with SendGrid is Fun");
+        $email->addTo("test@example.com", "Example User");
+        $email->addContent("text/plain", "and easy to do anywhere, even with PHP");
+        $email->addContent(
+            "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
+        );
+        $sendgrid = new \SendGrid(getenv('SENDGRID_API_KEY'));
+        try {
+            $response = $sendgrid->send($email);
+            print $response->statusCode() . "\n";
+            print_r($response->headers());
+            print $response->body() . "\n";
+        } catch (Exception $e) {
+            echo 'Caught exception: '. $e->getMessage() ."\n";
+        }
 
 ?>
