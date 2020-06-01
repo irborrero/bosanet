@@ -25,16 +25,34 @@ body {
 .coming-soon-container{
 	position: absolute;
 	margin-top: 19%;
-	margin-left: 42%;
+	margin-left: 36%;
 	padding: 15px;
 	border: 1 px solid #8dc63f;
 	border-radius: 5px;
 	background-color: #8dc63f;
 }
 
+.coming-soon-container-es{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 33%;
+	padding: 15px;
+	border: 1 px solid #8dc63f;
+	border-radius: 5px;
+	background-color: #8dc63f;
+}
+.coming-soon-container-por{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 38.5%;
+	padding: 15px;
+	border: 1 px solid #8dc63f;
+	border-radius: 5px;
+	background-color: #8dc63f;
+}
 .coming-soon-label {
 	color: white;
-	font-size: 30px;
+	font-size: 50px;
 	font-family: 'Open Sans', sans-serif;
 }
 
