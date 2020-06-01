@@ -9,8 +9,38 @@ body {
 	background:#ffffff;
 }
 
+#coming-soon {
+	background: url(../images/platform.png) no-repeat;
+	background-size: 100vw;
+}
+
+.mt-5 > h3 {
+	margin-top: 20px;
+}
+
+.mt-5 > .investors {
+	margin-top: 16.5px;
+}
+
+.coming-soon-container{
+	position: absolute;
+	margin-top: 19%;
+	margin-left: 42%;
+	padding: 15px;
+	border: 1 px solid #8dc63f;
+	border-radius: 5px;
+	background-color: #8dc63f;
+}
+
+.coming-soon-label {
+	color: white;
+	font-size: 30px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
 .img-what-we-do {
-	width: 40%;
+	width: 60px;
 }
 
 
@@ -3351,9 +3381,6 @@ button.close {
 		 margin-right: 10%;
 	 }
 
-	.mt-5 {
-		margin-top: 20px !important;
-	}
 
 	.fa-user-plus,
 	.fa-briefcase {
